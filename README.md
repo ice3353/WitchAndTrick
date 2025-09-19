@@ -30,7 +30,10 @@
 
 ## 실행 방법
 
-이 애플리케이션은 웹 브라우저에서 실행되며, Google Gemini API를 사용하기 위해 API 키 설정이 필요합니다.
+이 애플리케이션은 웹 브라우저에서 실행되며, Google Gemini API를 사용하기 위해 API 키 설정이 필요합니다.  
+밑방법 외에 간단히  
+https://ai.studio/apps/drive/1f8Qzvm4mg1lHEFm1GtmEhnZaeB627aHh  
+에서 실행하실 수 있습니다
 
 ### 1. API 키 설정
 
