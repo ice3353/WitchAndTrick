@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Sea Turtle Soup: Rokkenjima's Truth Game</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+    .font-cinzel {
+      font-family: 'Cinzel', serif;
+    }
+    @keyframes fade-in-up {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in-up {
+      animation: fade-in-up 0.5s ease-out forwards;
+    }
+    @keyframes red-glow {
+      0%, 100% { box-shadow: 0 0 5px rgba(239, 68, 68, 0.5), 0 0 10px rgba(239, 68, 68, 0.3); }
+      50% { box-shadow: 0 0 15px rgba(239, 68, 68, 0.8), 0 0 20px rgba(239, 68, 68, 0.5); }
+    }
+    .animate-red-glow {
+        animation: red-glow 3s infinite ease-in-out;
+    }
+    @keyframes purple-glow {
+        0%, 100% { box-shadow: 0 0 8px rgba(192, 132, 252, 0.5), 0 0 12px rgba(168, 85, 247, 0.3); }
+        50% { box-shadow: 0 0 20px rgba(192, 132, 252, 0.8), 0 0 25px rgba(168, 85, 247, 0.5); }
+    }
+    .animate-purple-glow {
+        animation: purple-glow 3s infinite ease-in-out;
+    }
+    /* Custom Scrollbar Styles */
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 8px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #111827; /* bg-gray-900 */
+      border-radius: 10px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background-color: #b91c1c; /* bg-red-700 */
+      border-radius: 10px;
+      border: 2px solid #111827; /* bg-gray-900 to create padding effect */
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background-color: #dc2626; /* bg-red-600 */
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-900 text-white">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
