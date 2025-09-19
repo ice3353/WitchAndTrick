@@ -62,4 +62,4 @@
 **주의**: 로컬에서 실행할 경우, `API_KEY`를 클라이언트 사이드 코드(React)에서 안전하게 관리하는 방법에 대한 추가적인 고려가 필요할 수 있습니다. 이 프로젝트는 현재 `process.env`를 통해 키를 직접 참조하므로, Vite나 Webpack 같은 번들러 환경에서 환경 변수를 주입하는 설정이 필요합니다.
 
 # 원작자 안내
-[해당 게시글](https://gall.dcinside.com/mgallery/board/view/?id=higurashi&no=653685이 원본이며 이것을 포크하고 사랑을 제거하고, 여러 개선 사항들을 제공했습니다.
+[해당 게시글](https://gall.dcinside.com/mgallery/board/view/?id=higurashi&no=653685)이 원본이며 이것을 포크하고 사랑을 제거하고, 여러 개선 사항들을 제공했습니다.
